@@ -35,7 +35,7 @@
     
     ?>
     <div class="form">
-        <a href="index.php" class="back_btn"><img src="images/retour.png"> Retour</a>
+        <a href="index.php" class="back_btn"><img src="../images/retour.png"> Retour</a>
         <h2>Ajouter un étudiant</h2>
         <p class="erreur_message">
             <?php 
