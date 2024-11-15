@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestion Etudiants</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
     
     <div class="container">
         <h1 class="main-title">GESTION DES ÉTUDIANTS</h1>
         <br><br>
-        <a href="ajouter.php" class="Btn_add"> <img src="images/plus.png"> Ajouter</a>
+        <a href="ajouter.php" class="Btn_add"> <img src="../images/plus.png"> Ajouter</a>
         
         <table>
             <tr id="items">
@@ -40,8 +40,8 @@
                             <td><?=$row['prenom']?></td>
                             <td><?=$row['age']?></td>
                             <!--Nous alons mettre l'id de chaque étudiant dans ce lien -->
-                            <td><a href="modifier.php?id=<?=$row['id']?>"><img src="images/modif.png"></a></td>
-                            <td><a href="supprimer.php?id=<?=$row['id']?>"><img src="images/suppr.png"></a></td>
+                            <td><a href="modifier.php?id=<?=$row['id']?>"><img src="../images/modif.png"></a></td>
+                            <td><a href="supprimer.php?id=<?=$row['id']?>"><img src="../images/suppr.png"></a></td>
                         </tr>
                         <?php
                     }
